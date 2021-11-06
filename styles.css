@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Karla-Bold;
+    src: url(fonts/static/Karla-Bold.ttf);
+}
+body
+{
+    width: 1440px;
+    height: 1440px;
+    font-size: 16px;
+    font-family: Karla-Bold;
+}
+#content
+{
+    width: 700px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 200px auto 0px auto;
+}
+#container1
+{  
+    padding: 0px 30px 0px 30px;
+}
+#container2
+{
+    display: flex;
+    width: 700px;
+    height: 225px;
+}
+h1
+{
+    color: hsl(179, 62%, 43%);
+}
+h2
+{
+    color: hsl(71, 73%, 54%);
+}
+p
+{
+    color: hsl(218, 22%, 67%);
+}
+#subscription, #why
+{
+    
+}
+#subscrition
+{
+    background-color: hsl(179, 62%, 43%);
+}
+.price
+{
+    font-size: 32px;
+}
+
