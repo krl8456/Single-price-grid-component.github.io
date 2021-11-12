@@ -123,11 +123,17 @@ button:hover
 }
 @media screen and (max-width: 780px)
 {
+    html, body 
+    {
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 14px;
+    }
     #content
     {
         flex-direction: column;
-        width: 50%;
-        height: 200%;
+        width: 260px;
+        height: 100%;
         margin: 40px auto 0px auto;
     }
     button
